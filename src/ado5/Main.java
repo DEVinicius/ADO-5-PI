@@ -1,5 +1,6 @@
 package ado5;
 
+import java.awt.*;
 import java.util.Scanner;
 
 public class Main {
@@ -29,6 +30,10 @@ public class Main {
                 case 4:
                     System.out.println("ATE MAIS");
                     isMenuOpen = false;
+                    break;
+
+                default:
+                    System.out.println("Operacao invalida");
                     break;
             }
         } while(isMenuOpen);
